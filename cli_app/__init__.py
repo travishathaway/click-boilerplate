@@ -18,5 +18,4 @@ def cli():
 
 
 # Add commands
-cli.add_command(commands.rm_user)
-cli.add_command(commands.add_user)
+cli.add_command(commands.hello)

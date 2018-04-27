@@ -17,7 +17,7 @@ setup(
     name=command_name,
     version='0.1.0',
     description="CLI tool boilerplate using click, please replace!",
-    long_description=readme + '\n\n' + history,
+    long_description=readme,
     author="Travis Hathaway",
     author_email='travis@example.com',
     url='https://github.com/travishathaway/click-boilerplate',
