@@ -8,8 +8,8 @@ changes.
 In order to use this boilerplate, I recommend doing the following:
 
 - Change the name of the `click_cli` module to something that is relavant to your project
-- Update the `setup.py` pointing the `console_scripts` option to the updated module name
-- Update the `setup.py` with other values relevant to your project
+- Update the `setup.py` file, pointing the `console_scripts` option to the updated module name
+- Update the `setup.py` file with other values relevant to your project
 - Remove the `hello` command and start replacing with commands for your project
 
 ## Check out the slides
