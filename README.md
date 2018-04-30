@@ -3,6 +3,15 @@ Boilerplate project for a the Python Click library. This code can serve as a sta
 To use it, rename the `cli_app` module to the name of your project and update the `setup.py` to reflect these 
 changes.
 
+## Using this boilerplate
+
+In order to use this boilerplate, I recommend doing the following:
+
+- Change the name of the `click_cli` module to something that is relavant to your project
+- Update the `setup.py` pointing the `console_scripts` option to the updated module name
+- Update the `setup.py` with other values relevant to your project
+- Remove the `hello` command and start replacing with commands for your project
+
 ## Check out the slides
 Here are the slides that accompany this repository:
 
