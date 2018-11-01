@@ -29,6 +29,7 @@ Here's how you run it:
 
 ```
 $ cli_app hello Name
+> Hello Name!
 ```
 
 The main benefit with this method is not having to reinstall everytime a change is made.
@@ -38,7 +39,7 @@ The main benefit with this method is not having to reinstall everytime a change 
 Follow the regular method to install your CLI program into a virtual environment or system Python:
 
 ```
-$ python setup.py
+$ python setup.py install
 ```
 
 ## Adding more commands
