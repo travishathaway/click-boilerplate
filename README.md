@@ -75,7 +75,7 @@ from .weather import weather
 ```
 4. Now the final step. Add the following near the bottom of `cli_app/__init__.py`
 ```python
-# ...
+# All the boilerplate stuff is up here...
 
 # Add Commands
 # This line was already here
