@@ -47,7 +47,9 @@ In order to add more commands,
 I recommend adding them to the `cli_app.commands` module as separate files.
 Adding them to this directory and as separate files will help keep your project neat and organized.
 
-For example, if I wanted to add a new command called `weather` that would fetch the current weather
+### But how do I do it?
+
+Great question! Let's say I wanted to add a new command called `weather` that would fetch the current weather
 forecast for a city, I would do the following:
 
 1. Create a new file called `weather.py` underneath the `cli_app/commands` directory
@@ -79,6 +81,13 @@ from .weather import weather
 cli.add_command(commands.hello)
 # New entry
 cli.add_command(commands.weather)
+```
+
+If you have installed the CLI program using the "development" method from above,
+you should now be able to run your new sub command:
+```
+$ cli_app weather Toronto Canada
+> 75 and SUNNY!!!
 ```
 
 ## Check out the slides
